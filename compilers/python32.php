@@ -1,4 +1,5 @@
 <?php
+	putenv("PATH=C:\Program Files (x86)\Python36");
 	$CC="python3";
 	//$out="./a.out";
 	$code=$_POST["code"];
