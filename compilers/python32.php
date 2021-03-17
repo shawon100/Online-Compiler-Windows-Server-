@@ -9,7 +9,7 @@
 	$filename_error="error.txt";
 	//$executable="a.out";
 	$command=$CC." ".$filename_code;
-	$command_error=$command." 2>".$filename_error;
+	$command_error=$command." ".$filename_error;
 
 	//if(trim($code)=="")
 	//die("The code area is empty");
